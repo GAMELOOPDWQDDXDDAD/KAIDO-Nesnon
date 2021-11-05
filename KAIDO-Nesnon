@@ -1,11 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Kaido Hub", "Synaspe")
 
-local Tab = Window:NewTab("Main!")
-local Section = Tab:NewSection("Main")
+local Tab = Window:NewTab("Main Fly")
+local Section = Tab:NewSection("Fly")
 
-Section:UpdateSection("Main")
-
-Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+Section:NewButton("Fly", "KAIDO HUB SO HANDSOME", function()
+    
 end)
